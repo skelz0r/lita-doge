@@ -5,6 +5,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
   Coveralls::SimpleCov::Formatter
 ]
 SimpleCov.start { add_filter "/spec/" }
+Coveralls.wear!
 
 require "lita-doge"
 require "lita/rspec"
