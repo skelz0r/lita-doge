@@ -15,7 +15,13 @@ gem "lita-doge"
 
 ## Such Configuration
 
+Much default words:
 
+``` ruby
+Lita.configure do |config|
+  config.handlers.doge.default_words = ['jam', 'students']
+end
+```
 
 ## Much Usage
 
