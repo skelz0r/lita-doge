@@ -39,7 +39,7 @@ module Lita
       private
 
       def extract_args(matches)
-        if matches[0].empty?
+        if matches[0][0].empty?
           []
         else
           matches[0][0].split
